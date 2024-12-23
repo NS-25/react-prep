@@ -1,11 +1,13 @@
 import "./App.css";
 
 function App() {
+  let message = "Bye There";
+  if (Math.random() > 0.5) {
+    message = "Hello there!";
+  }
   return (
     <>
-      <div>
-        <h1>Hello George</h1>
-      </div>
+      <div>{message}</div>
     </>
   );
 }
