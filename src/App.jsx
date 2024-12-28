@@ -14,7 +14,13 @@ function App() {
   // }
   return (
     <>
-      <div>Personal Digital Assistants</div>
+      <div>
+        <section className="hero is-primary">
+          <div className="hero-body">
+            <p className="title">Personal Digital Assistants</p>
+          </div>
+        </section>
+      </div>  
       <div className="container">
         <div className="section">
           <div className="columns">
